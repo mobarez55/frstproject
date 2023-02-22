@@ -1,0 +1,64 @@
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: red;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    color: green;
+}
+h3{
+    text-align: center;
+    font-weight: bolder;
+}
+img{
+    width: 190px;
+    height: 100px;
+    padding: 5px;
+    border-radius: 100%;
+}
+.container{
+    width: 100%;
+    background-color: salmon;
+    display: flex;
+    flex-direction: ;
+    
+}
+.mem1{
+    width: 200px;
+    height: 200px;
+    border: 3px solid rgb(255, 123, 0);
+    background-color: aqua;
+    margin: 10px;
+    
+}
+.mem2{
+    width: 200px;
+    height: 200px;
+    border: 3px solid green;
+    background-color: blueviolet;
+    margin: 10px;
+}
+.mem3{
+    width: 200px;
+    height: 200px;
+    border: 3px solid rgb(90, 128, 0);
+    background-color: rgb(198, 226, 43);
+    margin: 10px;
+    order: 1;
+    flex-grow: 3;
+}
+.mem4{
+    width: 200px;
+    height: 200px;
+    border: 3px solid rgb(128, 0, 43);
+    background-color: rgb(226, 43, 134);
+    margin: 10px;
+}
+.mmmm{
+    width: 500px;
+    height: 400px;
+    border: 2px solid green;
+    margin: 50px auto;
+}
